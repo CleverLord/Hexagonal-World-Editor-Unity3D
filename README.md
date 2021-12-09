@@ -17,3 +17,18 @@ There are five sources of informations about the surrounding:
 - What is the cell beneath the ghost (baseTile - green)
 - What is the information comming from the neighbours
 - And the map itself
+
+This awarness can be used for example to not allow to build on lava, or to rotate ghost to match the seaside, or, as shown below, to snap to other layers
+
+![Snaps](./PresentationSource/Snapping.gif)
+
+Explanation for the 3 special tiles (Left side - Editor, Right side - Game) :
+
+When mouse is on the third tile above the floor, the one that i have mouse over has red outline
+![Example1](./PresentationSource/Obvious_example.png)
+When mouse is on the second tile above the floor, and the tile on the first layer exists, and has smaller vertical offset, green is the one that is the base of the ghost
+![Example2](./PresentationSource/Nice_little_snap.png)
+When there is a building in the way and mouse is on the bottom tile
+![Example3](./PresentationSource/Awarness2.png)
+When there is a building in the way and mouse is on the building
+![Example3](./PresentationSource/Awarness1.png)
