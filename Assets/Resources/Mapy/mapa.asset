@@ -1,0 +1,358 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9615e1ae1abbaac4ea25b79c61423d2a, type: 3}
+  m_Name: mapa
+  m_EditorClassIdentifier: 
+  mapTilesDatas:
+  - coords:
+      q: 0
+      r: 1
+    vOffset: 0
+    layer: 0
+    rotation: 300
+    placeableHexObjectPrefabData: {fileID: -6308619244385925989, guid: 61648b9b06e148249964305dd9eb5942, type: 3}
+  - coords:
+      q: -1
+      r: 1
+    vOffset: 0
+    layer: 0
+    rotation: 240
+    placeableHexObjectPrefabData: {fileID: -6308619244385925989, guid: 61648b9b06e148249964305dd9eb5942, type: 3}
+  - coords:
+      q: 1
+      r: 0
+    vOffset: 0
+    layer: 0
+    rotation: 0
+    placeableHexObjectPrefabData: {fileID: -6308619244385925989, guid: 61648b9b06e148249964305dd9eb5942, type: 3}
+  - coords:
+      q: 1
+      r: -1
+    vOffset: 0
+    layer: 0
+    rotation: 180
+    placeableHexObjectPrefabData: {fileID: -6308619244385925989, guid: 61648b9b06e148249964305dd9eb5942, type: 3}
+  - coords:
+      q: -1
+      r: 0
+    vOffset: 0
+    layer: 0
+    rotation: 60
+    placeableHexObjectPrefabData: {fileID: -6308619244385925989, guid: 61648b9b06e148249964305dd9eb5942, type: 3}
+  - coords:
+      q: -2
+      r: 0
+    vOffset: 0
+    layer: 0
+    rotation: 240
+    placeableHexObjectPrefabData: {fileID: -6308619244385925989, guid: 61648b9b06e148249964305dd9eb5942, type: 3}
+  - coords:
+      q: -2
+      r: -1
+    vOffset: 0
+    layer: 0
+    rotation: 180
+    placeableHexObjectPrefabData: {fileID: -6308619244385925989, guid: 61648b9b06e148249964305dd9eb5942, type: 3}
+  - coords:
+      q: -1
+      r: -2
+    vOffset: 0
+    layer: 0
+    rotation: 120
+    placeableHexObjectPrefabData: {fileID: -6308619244385925989, guid: 61648b9b06e148249964305dd9eb5942, type: 3}
+  - coords:
+      q: 0
+      r: -2
+    vOffset: 0
+    layer: 0
+    rotation: 300
+    placeableHexObjectPrefabData: {fileID: -6308619244385925989, guid: 61648b9b06e148249964305dd9eb5942, type: 3}
+  - coords:
+      q: 1
+      r: -3
+    vOffset: 0
+    layer: 0
+    rotation: 120
+    placeableHexObjectPrefabData: {fileID: -6308619244385925989, guid: 61648b9b06e148249964305dd9eb5942, type: 3}
+  - coords:
+      q: 2
+      r: -3
+    vOffset: 0
+    layer: 0
+    rotation: 60
+    placeableHexObjectPrefabData: {fileID: -6308619244385925989, guid: 61648b9b06e148249964305dd9eb5942, type: 3}
+  - coords:
+      q: 2
+      r: -2
+    vOffset: 0
+    layer: 0
+    rotation: 0
+    placeableHexObjectPrefabData: {fileID: -6308619244385925989, guid: 61648b9b06e148249964305dd9eb5942, type: 3}
+  - coords:
+      q: 0
+      r: -1
+    vOffset: 0
+    layer: 0
+    rotation: 300
+    placeableHexObjectPrefabData: {fileID: -633061240409237008, guid: e43f0680cecee3b41b2002c145f39965, type: 3}
+  - coords:
+      q: -1
+      r: -1
+    vOffset: 0
+    layer: 0
+    rotation: 300
+    placeableHexObjectPrefabData: {fileID: -633061240409237008, guid: e43f0680cecee3b41b2002c145f39965, type: 3}
+  - coords:
+      q: 1
+      r: -2
+    vOffset: 0
+    layer: 0
+    rotation: 300
+    placeableHexObjectPrefabData: {fileID: -633061240409237008, guid: e43f0680cecee3b41b2002c145f39965, type: 3}
+  - coords:
+      q: 0
+      r: 0
+    vOffset: 0
+    layer: 0
+    rotation: 300
+    placeableHexObjectPrefabData: {fileID: -633061240409237008, guid: e43f0680cecee3b41b2002c145f39965, type: 3}
+  - coords:
+      q: 1
+      r: 1
+    vOffset: 0.4
+    layer: 0
+    rotation: 60
+    placeableHexObjectPrefabData: {fileID: -633061240409237008, guid: e43f0680cecee3b41b2002c145f39965, type: 3}
+  - coords:
+      q: 2
+      r: 0
+    vOffset: 0.4
+    layer: 0
+    rotation: 60
+    placeableHexObjectPrefabData: {fileID: -633061240409237008, guid: e43f0680cecee3b41b2002c145f39965, type: 3}
+  - coords:
+      q: 0
+      r: 2
+    vOffset: 0.4
+    layer: 0
+    rotation: 60
+    placeableHexObjectPrefabData: {fileID: -633061240409237008, guid: e43f0680cecee3b41b2002c145f39965, type: 3}
+  - coords:
+      q: -1
+      r: 2
+    vOffset: 0.4
+    layer: 0
+    rotation: 60
+    placeableHexObjectPrefabData: {fileID: -633061240409237008, guid: e43f0680cecee3b41b2002c145f39965, type: 3}
+  - coords:
+      q: -2
+      r: 2
+    vOffset: 0.4
+    layer: 0
+    rotation: 60
+    placeableHexObjectPrefabData: {fileID: -633061240409237008, guid: e43f0680cecee3b41b2002c145f39965, type: 3}
+  - coords:
+      q: -1
+      r: 3
+    vOffset: 0.70000005
+    layer: 0
+    rotation: 60
+    placeableHexObjectPrefabData: {fileID: -633061240409237008, guid: e43f0680cecee3b41b2002c145f39965, type: 3}
+  - coords:
+      q: -2
+      r: 3
+    vOffset: 0.70000005
+    layer: 0
+    rotation: 60
+    placeableHexObjectPrefabData: {fileID: -633061240409237008, guid: e43f0680cecee3b41b2002c145f39965, type: 3}
+  - coords:
+      q: 0
+      r: 3
+    vOffset: 0.70000005
+    layer: 0
+    rotation: 60
+    placeableHexObjectPrefabData: {fileID: -633061240409237008, guid: e43f0680cecee3b41b2002c145f39965, type: 3}
+  - coords:
+      q: 1
+      r: 2
+    vOffset: 0.70000005
+    layer: 0
+    rotation: 60
+    placeableHexObjectPrefabData: {fileID: -633061240409237008, guid: e43f0680cecee3b41b2002c145f39965, type: 3}
+  - coords:
+      q: 2
+      r: 1
+    vOffset: 0.70000005
+    layer: 0
+    rotation: 60
+    placeableHexObjectPrefabData: {fileID: -633061240409237008, guid: e43f0680cecee3b41b2002c145f39965, type: 3}
+  - coords:
+      q: -2
+      r: 1
+    vOffset: 0.4
+    layer: 0
+    rotation: 60
+    placeableHexObjectPrefabData: {fileID: -633061240409237008, guid: e43f0680cecee3b41b2002c145f39965, type: 3}
+  - coords:
+      q: 2
+      r: -1
+    vOffset: 0.4
+    layer: 0
+    rotation: 60
+    placeableHexObjectPrefabData: {fileID: -633061240409237008, guid: e43f0680cecee3b41b2002c145f39965, type: 3}
+  - coords:
+      q: -3
+      r: 3
+    vOffset: 0.70000005
+    layer: 0
+    rotation: 60
+    placeableHexObjectPrefabData: {fileID: -633061240409237008, guid: e43f0680cecee3b41b2002c145f39965, type: 3}
+  - coords:
+      q: 3
+      r: 0
+    vOffset: 0.70000005
+    layer: 0
+    rotation: 60
+    placeableHexObjectPrefabData: {fileID: -633061240409237008, guid: e43f0680cecee3b41b2002c145f39965, type: 3}
+  - coords:
+      q: 3
+      r: -1
+    vOffset: 0.4
+    layer: 0
+    rotation: 60
+    placeableHexObjectPrefabData: {fileID: -633061240409237008, guid: e43f0680cecee3b41b2002c145f39965, type: 3}
+  - coords:
+      q: -3
+      r: 2
+    vOffset: 0.4
+    layer: 0
+    rotation: 60
+    placeableHexObjectPrefabData: {fileID: -633061240409237008, guid: e43f0680cecee3b41b2002c145f39965, type: 3}
+  - coords:
+      q: 0
+      r: 4
+    vOffset: 0.70000005
+    layer: 0
+    rotation: 60
+    placeableHexObjectPrefabData: {fileID: -633061240409237008, guid: e43f0680cecee3b41b2002c145f39965, type: 3}
+  - coords:
+      q: -1
+      r: 5
+    vOffset: 0.70000005
+    layer: 0
+    rotation: 60
+    placeableHexObjectPrefabData: {fileID: -633061240409237008, guid: e43f0680cecee3b41b2002c145f39965, type: 3}
+  - coords:
+      q: 0
+      r: 5
+    vOffset: 0.70000005
+    layer: 0
+    rotation: 60
+    placeableHexObjectPrefabData: {fileID: -633061240409237008, guid: e43f0680cecee3b41b2002c145f39965, type: 3}
+  - coords:
+      q: -1
+      r: 4
+    vOffset: 0.70000005
+    layer: 0
+    rotation: 60
+    placeableHexObjectPrefabData: {fileID: -633061240409237008, guid: e43f0680cecee3b41b2002c145f39965, type: 3}
+  - coords:
+      q: 1
+      r: 3
+    vOffset: 0.70000005
+    layer: 0
+    rotation: 60
+    placeableHexObjectPrefabData: {fileID: -633061240409237008, guid: e43f0680cecee3b41b2002c145f39965, type: 3}
+  - coords:
+      q: 1
+      r: 4
+    vOffset: 0.70000005
+    layer: 0
+    rotation: 60
+    placeableHexObjectPrefabData: {fileID: -633061240409237008, guid: e43f0680cecee3b41b2002c145f39965, type: 3}
+  - coords:
+      q: 0
+      r: 4
+    vOffset: 0.8000001
+    layer: 1
+    rotation: 0
+    placeableHexObjectPrefabData: {fileID: 4436626503258180394, guid: 4f2a23396d0211042a3b8d36bc7f5a1a, type: 3}
+  - coords:
+      q: -2
+      r: 4
+    vOffset: 0.70000005
+    layer: 0
+    rotation: 0
+    placeableHexObjectPrefabData: {fileID: -633061240409237008, guid: e43f0680cecee3b41b2002c145f39965, type: 3}
+  - coords:
+      q: -3
+      r: 4
+    vOffset: 0.70000005
+    layer: 0
+    rotation: 0
+    placeableHexObjectPrefabData: {fileID: -633061240409237008, guid: e43f0680cecee3b41b2002c145f39965, type: 3}
+  - coords:
+      q: -2
+      r: 5
+    vOffset: 0.70000005
+    layer: 0
+    rotation: 0
+    placeableHexObjectPrefabData: {fileID: -633061240409237008, guid: e43f0680cecee3b41b2002c145f39965, type: 3}
+  - coords:
+      q: -3
+      r: 5
+    vOffset: 0.70000005
+    layer: 0
+    rotation: 0
+    placeableHexObjectPrefabData: {fileID: -633061240409237008, guid: e43f0680cecee3b41b2002c145f39965, type: 3}
+  - coords:
+      q: -2
+      r: 4
+    vOffset: 0.70000005
+    layer: 1
+    rotation: 60
+    placeableHexObjectPrefabData: {fileID: -8207106674187892758, guid: 137b9f9e4087ac24bba44a17b5608ece, type: 3}
+  - coords:
+      q: 3
+      r: -3
+    vOffset: 0
+    layer: 0
+    rotation: 0
+    placeableHexObjectPrefabData: {fileID: -6308619244385925989, guid: 61648b9b06e148249964305dd9eb5942, type: 3}
+  - coords:
+      q: 4
+      r: -3
+    vOffset: 0
+    layer: 0
+    rotation: 0
+    placeableHexObjectPrefabData: {fileID: -6308619244385925989, guid: 61648b9b06e148249964305dd9eb5942, type: 3}
+  - coords:
+      q: 4
+      r: -4
+    vOffset: 0
+    layer: 0
+    rotation: 0
+    placeableHexObjectPrefabData: {fileID: -6308619244385925989, guid: 61648b9b06e148249964305dd9eb5942, type: 3}
+  - coords:
+      q: 6
+      r: -4
+    vOffset: 0
+    layer: 0
+    rotation: 0
+    placeableHexObjectPrefabData: {fileID: -6308619244385925989, guid: 61648b9b06e148249964305dd9eb5942, type: 3}
+  - coords:
+      q: 5
+      r: -4
+    vOffset: 0
+    layer: 0
+    rotation: 0
+    placeableHexObjectPrefabData: {fileID: -6308619244385925989, guid: 61648b9b06e148249964305dd9eb5942, type: 3}

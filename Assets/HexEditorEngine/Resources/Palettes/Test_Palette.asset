@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Test_Palette
+  m_EditorClassIdentifier: Assembly-CSharp:HexEditorEngine:Palette
+  placeableHexObjects:
+  - {fileID: 334785627220798884, guid: 61648b9b06e148249964305dd9eb5942, type: 3}
+  - {fileID: 5092702637279653891, guid: 137b9f9e4087ac24bba44a17b5608ece, type: 3}
+  - {fileID: 2408141864137173608, guid: e43f0680cecee3b41b2002c145f39965, type: 3}
+  - {fileID: 2306874624466470361, guid: 4f2a23396d0211042a3b8d36bc7f5a1a, type: 3}
+  paletteBehaviours: []
+  currentPlaceableHexObject: {fileID: 334785627220798884, guid: 61648b9b06e148249964305dd9eb5942, type: 3}
