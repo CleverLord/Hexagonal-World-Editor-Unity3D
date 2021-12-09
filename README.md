@@ -56,3 +56,5 @@ Here is an template, which is just a default behavior, and a second behaviour th
 ![Feed](./PresentationSource/Plugin_Example.png)
 
 PaletteBehaviour is a class that derivates from ScriptableObject, so an instance of it can be saved as a file. After writing a plugin, we make a file from it, and we drag-and-drop it to the list of custom behaviours located in the other file - the palette file.
+
+![PaletteWithCustomBehaviour](./PresentationSource/PaletteWithCustomBehaviour.png)
